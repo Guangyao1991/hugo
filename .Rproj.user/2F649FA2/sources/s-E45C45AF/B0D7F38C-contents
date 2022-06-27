@@ -1,0 +1,25 @@
+baseURL: https://example.com/
+languageCode: en-gb
+title: Hugo Theme - Prav
+theme: hugo-theme-prav
+pygmentsCodeFences: 'true'
+pygmentsStyle: perldoc
+ignoreErrors:
+  "error-missing-instagram-accesstoken"
+params:
+  author: Pravin Paratey
+  authorBlurb: Something about me
+  authorImgPath: /img/author.png
+  tagline: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+  title: Hugo Theme - Prav
+social:
+  email: mailto:example@example.com
+  facebook: https://www.facebook.com/example
+  github: https://github.com/example
+  linkedin: http://uk.linkedin.com/in/example
+  medium: https://www.medium.com/@example
+  twitter: http://twitter.com/example
+markup:
+  goldmark:
+    renderer:
+      unsafe: yes
